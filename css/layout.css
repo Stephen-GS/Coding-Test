@@ -1,0 +1,82 @@
+/* Extra large devices (large desktops, 1366px and down) */
+@media (max-width: 1366px) {}
+
+/* Extra large devices (large desktops, 1200px and down) */
+@media (max-width: 1200px) {
+    .page-content-outer {
+        padding: 80px 0;
+    }
+
+    .product-slider-outer {
+        padding-right: 0;
+    }
+}
+
+/* Large devices (desktops, 992px and down) */
+@media (max-width: 992px) {
+    .page-content-outer {
+        padding: 60px 0;
+    }
+
+    .color-list ul li {
+        width: 49%;
+    }
+}
+
+/* Medium devices (tablets, 768px and down) */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .hero-title {
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+
+    .desktop-only {
+        display: none;
+    }
+
+    .mob-only {
+        display: block;
+    }
+
+    .header {
+        background-image: none;
+        background-color: #03062F;
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .navbar-nav .nav-item {
+        margin: 0;
+    }
+
+
+    .navbar-nav .nav-item .nav-link {
+        padding: 15px 0;
+    }
+
+    .cta-nav ul li {
+        margin-left: 0;
+        margin-right: 20px;
+    }
+
+    .hero-content .img-fluid {
+        display: none;
+    }
+
+    .product-slider-outer {
+        padding-top: 0;
+    }
+
+    .slider-nav .slick-slide {
+        width: 60px !important;
+    }
+
+}
+
+/* Small devices (landscape phones, 576px and down) */
+@media (max-width: 576px) {}
