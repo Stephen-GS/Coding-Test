@@ -26,6 +26,11 @@
 /* Medium devices (tablets, 768px and down) */
 @media (max-width: 768px) {
     h1 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    h2 {
         font-size: 30px;
         line-height: 35px;
     }
@@ -70,10 +75,28 @@
 
     .product-slider-outer {
         padding-top: 0;
+        padding-bottom: 50px;
     }
 
     .slider-nav .slick-slide {
-        width: 60px !important;
+        width: 45px !important;
+    }
+
+    .slider-nav .slick-slide{
+        padding: 0 5px;
+    }
+
+    .cta-nav.mob-only ul{
+        -webkit-justify-content: center;
+        justify-content: center;
+    }
+
+    .cta-nav.mob-only li:last-child{
+        margin-right: 0;
+    }
+
+    .start-rating{
+        padding-bottom: 30px;
     }
 
 }
